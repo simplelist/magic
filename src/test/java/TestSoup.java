@@ -36,13 +36,14 @@ public class TestSoup extends BaseSpider {
             e.printStackTrace();
         }
 
-        for (int i = 0; i<threadSize; i++){
+        for (int i = 1; i <= threadSize; i++) {
             ParseThread parseThread1 = new ParseThread(i);
             Thread t1 = new Thread(parseThread1, "线程"+i+"正在运行:");
             t1.start();
         }
 //        System.out.println(urlsMap);
 //        System.out.print(System.currentTimeMillis() - start);
+        System.out.println(resultMap);
     }
 
 
@@ -56,12 +57,15 @@ public class TestSoup extends BaseSpider {
 
         public void run() {
             try {
-                for (int currentPage = 0; currentPage < 50 && urlsMap.size() > 0; currentPage++) {
-                    int urlCount = currentPage * urlIndex;
-                    if (urlsMap.containsKey(urlCount)) {
-                        System.out.println(Thread.currentThread().getName()+currentPage+">"+urlIndex+"="+urlCount);
-                        resultMap.put(urlCount,parse(urlsMap.get(urlCount)));
-                        urlsMap.remove(urlCount);
+                int perThreadSize = urlsMap.size() / threadSize;
+                for (int currentPage = 1; currentPage <= perThreadSize && urlsMap.size() > 0; currentPage++) {
+                    synchronized (urlsMap) {
+                        int urlCount = currentPage * urlIndex;
+                        if (urlsMap.containsKey(urlCount)) {
+                            System.out.println(Thread.currentThread().getName() + currentPage + ">" + urlIndex + "=" + urlCount);
+                            resultMap.put(urlCount, parse(urlsMap.get(urlCount)));
+                            urlsMap.remove(urlCount);
+                        }
                     }
                 }
             } catch (Exception e) {

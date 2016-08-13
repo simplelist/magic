@@ -20,9 +20,9 @@ public abstract class BaseSpider {
     public Document doc=null;
     public  static String baseUrl;
 
-    public void writeStringToFile2(String filePath, StringBuffer content) {
+    public void writeStringToFile2(String filePath, StringBuffer content, boolean over) {
         try {
-            FileWriter fw = new FileWriter(filePath, true);
+            FileWriter fw = new FileWriter(filePath, over);
             BufferedWriter bw = new BufferedWriter(fw);
             bw.write(content.toString());
             bw.close();
@@ -41,4 +41,6 @@ public abstract class BaseSpider {
     public void after(){
         System.out.print(System.currentTimeMillis()-startTime);
     }
+
+
 }

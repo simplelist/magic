@@ -1,14 +1,10 @@
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Element;
+package spider;
+
 import org.junit.Test;
-import org.springframework.core.env.SystemEnvironmentPropertySource;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.Stack;
-import java.util.concurrent.Callable;
 
 /**
  * Created by simplelist on 2016/8/7.

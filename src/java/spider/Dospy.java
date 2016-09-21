@@ -17,7 +17,7 @@ public class Dospy extends BaseSpider {
         super.baseUrl = "http://bbs.dospy.com/forum-141-";
         super.selector = ".txtd>a:not(a[style])";
         try {
-            for (int i = 1; i < 20; i++) {
+            for (int i = 1; i < 2; i++) {
                 parse(baseUrl + i + ".html");
             }
         } catch (IOException e) {

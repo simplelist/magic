@@ -11,9 +11,8 @@
       http://www.springframework.org/schema/mvc  
       http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
     <!-- 注解扫描包 -->
-    <context:component-scan base-package="controller"/>
+    <context:component-scan base-package="springmvc.controller"/>
     <!-- 开启注解 -->
-
     <mvc:annotation-driven/>
 
     <!-- <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />

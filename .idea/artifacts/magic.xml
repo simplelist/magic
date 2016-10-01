@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" build-on-make="true" name="magic">
-    <output-path>$PROJECT_DIR$/out/artifacts/magic</output-path>
+  <artifact type="exploded-war" name="magic">
+    <output-path>$PROJECT_DIR$/target/artifacts/magic</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="magic/web/Web" />
       <element id="directory" name="WEB-INF">

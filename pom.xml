@@ -10,7 +10,10 @@
     <build>
         <finalName>magic</finalName>
     </build>
-    <packaging>war</packaging>
+    <modules>
+        <module>wx</module>
+    </modules>
+    <packaging>pom</packaging>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -120,6 +123,13 @@
             <version>7.1.3</version>
         </dependency>
 
+
+        <!--微信-->
+        <dependency>
+            <groupId>com.github.sd4324530</groupId>
+            <artifactId>fastweixin</artifactId>
+            <version>1.3.13</version>
+        </dependency>
     </dependencies>
 
     <properties>

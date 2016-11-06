@@ -16,6 +16,7 @@ import springmvc.service.WeiXinService;
 @RequestMapping("/weixin")
 public class WeiXinController extends WeixinControllerSupport {
     private static final String token = "kun321";
+    private String result = "请输入指令:\n0获取菜单\n1讲个笑话\n2每日一句";
     @Autowired
     private WeiXinService weiXinService;
 
@@ -27,11 +28,10 @@ public class WeiXinController extends WeixinControllerSupport {
     @Override
     protected BaseMsg handleTextMsg(TextReqMsg msg) {
         String content = msg.getContent();
-        String result = "︿(￣︶￣)︿";
         if (content.equals("1")) {
-            result = "小时候把老爷子耍了多年的文玩核桃砸开了，我操，竟然没有仁。第二天一早一瘸一拐地去上学了";
-        } else {
-            result = weiXinService.fetchContent(content);
+            result = weiXinService.fetchJoke();
+        } else if (content.equals("2")) {
+            result = weiXinService.fetchEnglish(content);
         }
         return new TextMsg(result);
     }

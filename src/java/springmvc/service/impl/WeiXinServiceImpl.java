@@ -1,6 +1,7 @@
 package springmvc.service.impl;
 
 import org.springframework.stereotype.Service;
+import spider.Qiubai;
 import springmvc.service.WeiXinService;
 
 /**
@@ -8,9 +9,15 @@ import springmvc.service.WeiXinService;
  */
 @Service("weiXinService")
 public class WeiXinServiceImpl implements WeiXinService {
+    @Override
+    public String fetchJoke() {
+        return Qiubai.joke();
+    }
 
     @Override
-    public String fetchContent(String msg) {
-        return "whfeiouw";
+    public String fetchEnglish(String msg) {
+        return Qiubai.english();
     }
+
+
 }

@@ -19,4 +19,5 @@ public interface WeiXinService {
      */
     String fetchEnglish(String msg);
 
+    String searchPan(String content);
 }

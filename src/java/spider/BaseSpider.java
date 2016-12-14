@@ -22,9 +22,9 @@ public abstract class BaseSpider {
     public Document doc=null;
     public  static String baseUrl;
 
-    public void writeStringToFile2(String filePath, StringBuffer content, boolean over) {
+    public void writeStringToFile2(String filePath, StringBuffer content, boolean append) {
         try {
-            FileWriter fw = new FileWriter(filePath, over);
+            FileWriter fw = new FileWriter(filePath, append);
             BufferedWriter bw = new BufferedWriter(fw);
             bw.write(content.toString());
             bw.close();

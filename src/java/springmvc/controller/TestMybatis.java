@@ -35,14 +35,14 @@ public class TestMybatis {
 //        Account account = sqlSession.selectOne(statement,2);
 //        System.out.println(account);
 //    }
-//    @Test
-//    public void testSelectAll(){
-//        String statement = "springmvc.dto.mapping.accountMapper.getAll";//映射sql的标识字符串
-//        List<Account> accounts = sqlSession.selectList(statement);
-//        for (Account account : accounts) {
-//            System.out.println(account);
-//        }
-//    }
+    @Test
+    public void testSelectAll(){
+        String statement = "springmvc.dto.mapping.accountMapper.getAll";//映射sql的标识字符串
+        List<Account> accounts = sqlSession.selectList(statement);
+        for (Account account : accounts) {
+            System.out.println(account);
+        }
+    }
 
     /*用注解方式*/
     @Test

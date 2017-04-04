@@ -2,11 +2,11 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="springmvc.dto.mapping.accountMapper">
-    <select id="getAccount" parameterType="int" resultType="dto.Account">
+<mapper namespace="springmvc.dao.AccountMapper">
+    <select id="getAccount" parameterType="int" resultType="springmvc.dto.Account">
         SELECT * FROM account where id=#{id}
     </select>
-    <select id="getAll" resultType="dto.Account">
+    <select id="getAll" resultType="springmvc.dto.Account">
         SELECT * FROM account
     </select>
 </mapper>

@@ -15,6 +15,10 @@
             </dataSource>
         </environment>
     </environments>
+    <mappers>
+        <!--<mappers resource="springmvc/dto/mapping/accountMapper.xml"/>-->
+        <mapper class="springmvc.dao.AccountMapper"/>
+    </mappers>
 
 
 </configuration>

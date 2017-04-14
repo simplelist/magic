@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.binarywang:weixin-java-common:2.5.7.BETA">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/binarywang/weixin-java-common/2.5.7.BETA/weixin-java-common-2.5.7.BETA.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/binarywang/weixin-java-common/2.5.7.BETA/weixin-java-common-2.5.7.BETA-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/binarywang/weixin-java-common/2.5.7.BETA/weixin-java-common-2.5.7.BETA-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

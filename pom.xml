@@ -15,6 +15,7 @@
             <id>central</id>
             <name>Maven Repository Switchboard</name>
             <layout>default</layout>
+            <!--<url>http://mvnrepository.com/</url>-->
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>false</enabled>
@@ -182,7 +183,29 @@
             <artifactId>webmagic-extension</artifactId>
             <version>0.6.1</version>
         </dependency>
+        <!--EasyExcel-->
+        <dependency>
+            <groupId>net.sourceforge.jexcelapi</groupId>
+            <artifactId>jxl</artifactId>
+            <version>2.6.12</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.abel533</groupId>
+            <artifactId>EasyXls</artifactId>
+            <version>1.1.0</version>
+        </dependency>
 
+        <!--weixin-->
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-parent</artifactId>
+            <version>2.5.7.BETA</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>2.5.7.BETA</version>
+        </dependency>
     </dependencies>
 
     <properties>

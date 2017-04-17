@@ -29,7 +29,7 @@ public class TestMybatis {
         mapper = sqlSession.getMapper(AccountMapper.class);
     }
     /*用XML方式*/
-//    @Test
+//    @Test1
 //    public void testSelectOne(){
 //        String statement = "springmvc.dto.mapping.accountMapper.getAccount";//映射sql的标识字符串
 //        Account account = sqlSession.selectOne(statement,2);

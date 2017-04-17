@@ -1,9 +1,7 @@
 package webmagic;
 
 import us.codecraft.webmagic.Page;
-import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
-import us.codecraft.webmagic.processor.PageProcessor;
 import us.codecraft.webmagic.selector.Json;
 
 import java.util.LinkedList;
@@ -12,9 +10,7 @@ import java.util.List;
 /**
  * Created by Administrator on 2017/4/6.
  */
-public class ChunYuYiShengProcessor implements PageProcessor {
-    private Site site = Site.me().setRetryTimes(3).setSleepTime(100).setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36");
-
+public class ChunYuYiShengProcessor extends BaseProcessor {
 
     @Override
     public void process(Page page) {
@@ -29,11 +25,6 @@ public class ChunYuYiShengProcessor implements PageProcessor {
             urls.add("http://www.chunyuyisheng.com/api/search/hospital/list/?page=" + i);
         }
         return urls;
-    }
-
-    @Override
-    public Site getSite() {
-        return site;
     }
 
     public static void main(String[] args) {

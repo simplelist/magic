@@ -34,5 +34,6 @@
         <property name="maxInMemorySize" value="40960"/>
     </bean>
 
-    <import resource="spring-mybatis.xml"/>
+
+
 </beans>

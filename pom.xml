@@ -16,12 +16,15 @@
             <name>Maven Repository Switchboard</name>
             <layout>default</layout>
             <!--<url>http://mvnrepository.com/</url>-->
+            <!--<url> http://repo1.maven.org/maven2/</url>-->
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </repository>
     </repositories>
+
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -69,8 +72,8 @@
         <!-- https://mvnrepository.com/artifact/com.xiaoleilu/hutool -->
         <dependency>
             <groupId>com.xiaoleilu</groupId>
-            <artifactId>hutool</artifactId>
-            <version>2.15.6</version>
+            <artifactId>hutool-all</artifactId>
+            <version>3.0.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.shekhargulati/strman -->
         <dependency>
@@ -206,6 +209,14 @@
             <artifactId>weixin-java-mp</artifactId>
             <version>2.5.7.BETA</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.icexls/icexls -->
+        <dependency>
+            <groupId>com.icexls</groupId>
+            <artifactId>icexls</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
     <properties>

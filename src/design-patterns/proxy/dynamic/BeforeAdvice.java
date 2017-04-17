@@ -1,6 +1,7 @@
 package proxy.dynamic;
 
-import com.xiaoleilu.hutool.lang.DateTime;
+
+import com.xiaoleilu.hutool.date.DateTime;
 
 /**
  * Created by simplelist on 2016/9/19.

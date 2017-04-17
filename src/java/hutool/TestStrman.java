@@ -50,7 +50,7 @@ public class TestStrman {
         System.out.println("containsAll:" + s9 + ", " + s10); // result => "true, true"
 
         // containsAny 判断一个字符串是否包含某字符串数组中的任意一个元素
-        boolean s11 = Strman.containsAny("foo bar", new String[]{"FOO", "BAR", "Test"}, false);
+        boolean s11 = Strman.containsAny("foo bar", new String[]{"FOO", "BAR", "Test1"}, false);
         System.out.println("containsAny:" + s11); // result => "true"
 
         // countSubstr 判断一个字符串包含某字符串的个数

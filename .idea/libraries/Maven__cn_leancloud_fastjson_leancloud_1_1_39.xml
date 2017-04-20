@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.leancloud:fastjson-leancloud:1.1.39">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/leancloud/fastjson-leancloud/1.1.39/fastjson-leancloud-1.1.39.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/leancloud/fastjson-leancloud/1.1.39/fastjson-leancloud-1.1.39-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/leancloud/fastjson-leancloud/1.1.39/fastjson-leancloud-1.1.39-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

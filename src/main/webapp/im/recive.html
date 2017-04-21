@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>即时消息接收</title>
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugin/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <link href ="js/plugin/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/plugin/moment/moment.min.js"></script>
+    <script src="js/plugin/moment/zh-cn.js"></script>
+    <script src="js/im.js"></script>
+<script>
+    $(function () {
+        fetchRecord(1,2);
+        setInterval("fetchRecord(1,2)",200000);//1000为1秒钟
+
+        $('#content').keydown(function(event){
+            if(event.keyCode==13){
+                sendMessage(2,1);
+            }
+        })
+        $("#send").click(function () {
+            sendMessage(2,1);
+        });
+    })
+
+</script>
+
+</head>
+<body>
+<table class="table">
+
+    <thead>
+    <td>发送时间</td>
+    <td>接收内容</td>
+    <td>发送内容</td>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<textarea class="form-control"  placeholder="请输入你要发送的信息内容" id="content"></textarea>
+<button class="btn btn-default" id="send">发送</button>
+<span id="result"></span>
+</body>
+</html>

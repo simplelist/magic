@@ -4,10 +4,10 @@
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/web" relative="/" />
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src/java" />
@@ -20,16 +20,18 @@
       <configuration />
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/java/design-patterns" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/design-patterns" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/out" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/design-patterns" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/java/main/webapp/WEB-INF/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/src/mainwebapp/WEB-INF/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/src/webapp/WEB-INF/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
@@ -110,14 +112,13 @@
     <orderEntry type="library" name="Maven: net.sourceforge.jexcelapi:jxl:2.6.12" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.14" level="project" />
     <orderEntry type="library" name="Maven: com.github.abel533:EasyXls:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.binarywang:weixin-java-parent:2.5.7.BETA" level="project" />
+    <orderEntry type="library" name="Maven: com.github.binarywang:weixin-java-common:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.9" level="project" />
     <orderEntry type="library" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
     <orderEntry type="library" name="Maven: com.github.binarywang:weixin-java-mp:2.5.7.BETA" level="project" />
-    <orderEntry type="library" name="Maven: com.github.binarywang:weixin-java-common:2.5.7.BETA" level="project" />
     <orderEntry type="library" name="Maven: com.icexls:icexls:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.15" level="project" />
   </component>

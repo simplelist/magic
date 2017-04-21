@@ -7,7 +7,6 @@
     <option name="id" value="1490525361559" />
     <option name="name" value="default" />
     <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/bsxq_java_formatter.xml" />
-    <option name="selectedJavaProfile" value="bsxq" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
@@ -38,6 +37,6 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/classes" />
+    <output url="file://$PROJECT_DIR$/target" />
   </component>
 </project>

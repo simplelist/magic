@@ -1,10 +1,10 @@
 package java8;
 
-import java8.test_method.Person;
 import org.junit.Test;
 
-import java.util.Comparator;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -19,7 +19,7 @@ public class TestMap {
             map.putIfAbsent(i,"val"+i);
         }
 //        map.forEach((id,val)-> System.out.println(val));
-
+		List<Integer> ids=new ArrayList<>();
         map.computeIfPresent(3,(num,val)->val+num);
         System.out.println(map.get(3));
 

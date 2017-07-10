@@ -3,10 +3,6 @@ package java8;
 import org.junit.Test;
 
 import java.lang.annotation.Repeatable;
-import java.time.Clock;
-import java.time.Instant;
-import java.time.ZoneId;
-import java.util.Date;
 
 /**
  * Java 8中的注解是可重复的。

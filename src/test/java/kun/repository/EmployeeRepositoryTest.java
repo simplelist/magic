@@ -1,17 +1,16 @@
 package kun.repository;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
+import com.kun.domain.Employee;
+import com.kun.repository.EmployeeRepository;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.kun.domain.Employee;
-import com.kun.repository.EmployeeRepository;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by kun on 2017/4/21.

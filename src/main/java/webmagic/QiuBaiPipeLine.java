@@ -7,7 +7,6 @@ import us.codecraft.webmagic.pipeline.Pipeline;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by Administrator on 2017/4/4.

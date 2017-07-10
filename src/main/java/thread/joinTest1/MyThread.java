@@ -1,7 +1,5 @@
 package thread.joinTest1;
 
-import thread.p_r_test.ThreadC;
-
 /**
  * Created by kun on 2017/4/26.
  */

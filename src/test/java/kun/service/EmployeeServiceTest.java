@@ -1,10 +1,8 @@
 package kun.service;
 
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.persistence.criteria.*;
-
+import com.kun.domain.Employee;
+import com.kun.repository.EmployeeRepository;
+import com.kun.service.EmployeeService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,9 +14,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 
-import com.kun.domain.Employee;
-import com.kun.repository.EmployeeRepository;
-import com.kun.service.EmployeeService;
+import javax.persistence.criteria.*;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by Administrator on 2017/4/22 0022.

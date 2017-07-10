@@ -2,9 +2,6 @@ package webmagic;
 
 import com.xiaoleilu.hutool.http.HttpUtil;
 import com.xiaoleilu.hutool.io.FileUtil;
-import com.xiaoleilu.hutool.io.IoUtil;
-import com.xiaoleilu.hutool.io.resource.UrlResource;
-import com.xiaoleilu.hutool.util.ImageUtil;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;

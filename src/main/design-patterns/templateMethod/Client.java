@@ -1,7 +1,6 @@
 package templateMethod;
 
 import org.junit.Test;
-import org.junit.internal.runners.statements.Fail;
 
 /**
  * Created by simplelist on 2016/9/17.

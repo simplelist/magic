@@ -1,14 +1,13 @@
 package com.kun.dao;
 
+import com.kun.domain.Student;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowCallbackHandler;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
-
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowCallbackHandler;
-
-import com.kun.domain.Student;
 
 /**
  * Created by kun on 2017/4/21.

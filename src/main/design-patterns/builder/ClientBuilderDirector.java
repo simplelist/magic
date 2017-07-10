@@ -2,8 +2,6 @@ package builder;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-
 /**
  * Created by simplelist on 2016/9/18.
  */

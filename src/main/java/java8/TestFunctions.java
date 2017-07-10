@@ -2,9 +2,7 @@ package java8;
 
 import org.junit.Test;
 
-import java.util.Objects;
 import java.util.function.Function;
-import java.util.function.Predicate;
 
 /**
  * Created by Administrator on 2016/10/18 0018.

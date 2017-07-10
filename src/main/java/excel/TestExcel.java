@@ -1,12 +1,11 @@
 package excel;
 
-import java.io.File;
-import java.util.List;
-
-import org.junit.Test;
-
 import com.github.abel533.easyxls.EasyXls;
 import com.github.abel533.easyxls.bean.ExcelConfig;
+import org.junit.Test;
+
+import java.io.File;
+import java.util.List;
 
 /**
  * Created by kun on 2017/4/12.

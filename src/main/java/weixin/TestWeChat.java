@@ -1,13 +1,11 @@
 package weixin;
 
-import me.chanjar.weixin.mp.bean.result.WxMpUser;
-import org.junit.Test;
-
 import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpInMemoryConfigStorage;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.impl.WxMpServiceImpl;
-import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
+import me.chanjar.weixin.mp.bean.result.WxMpUser;
+import org.junit.Test;
 
 /**
  * Created by kun on 2017/4/13.

@@ -1,6 +1,5 @@
 package java8;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,13 +1,7 @@
 package hutool;
 
 import com.xiaoleilu.hutool.http.HttpUtil;
-import com.xiaoleilu.hutool.io.FileUtil;
-import com.xiaoleilu.hutool.util.ImageUtil;
-import org.junit.*;
-
-import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Map;
+import org.junit.Test;
 
 /**
  * Created by Administrator on 2017/4/16 0016.

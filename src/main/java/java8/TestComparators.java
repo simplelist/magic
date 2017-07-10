@@ -4,7 +4,6 @@ import java8.test_method.Person;
 import org.junit.Test;
 
 import java.util.Comparator;
-import java.util.function.Consumer;
 
 /**
  * Consumer代表了在一个输入参数上需要进行的操作。

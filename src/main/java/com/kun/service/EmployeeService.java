@@ -1,13 +1,12 @@
 package com.kun.service;
 
-import java.util.List;
-
+import com.kun.domain.Employee;
+import com.kun.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.kun.domain.Employee;
-import com.kun.repository.EmployeeRepository;
+import java.util.List;
 
 /**
  * Created by Administrator on 2017/4/22 0022.

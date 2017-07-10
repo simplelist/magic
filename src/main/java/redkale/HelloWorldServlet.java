@@ -5,7 +5,6 @@ import org.redkale.net.http.HttpRequest;
 import org.redkale.net.http.HttpResponse;
 import org.redkale.net.http.HttpServlet;
 import org.redkale.net.http.WebServlet;
-import org.redkale.util.AutoLoad;
 
 import javax.annotation.Resource;
 import java.io.IOException;

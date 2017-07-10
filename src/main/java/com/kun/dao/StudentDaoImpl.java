@@ -1,13 +1,13 @@
 package com.kun.dao;
 
+import com.kun.domain.Student;
+import com.kun.util.JDBCUtil;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.LinkedList;
 import java.util.List;
-
-import com.kun.domain.Student;
-import com.kun.util.JDBCUtil;
 
 /**
  * Created by kun on 2017/4/21.

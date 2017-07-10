@@ -4,13 +4,12 @@ package qiniu;
  * Created by Administrator on 2016/10/7.
  */
 
-import com.qiniu.util.Auth;
-
-import java.io.IOException;
-
 import com.qiniu.common.QiniuException;
 import com.qiniu.http.Response;
 import com.qiniu.storage.UploadManager;
+import com.qiniu.util.Auth;
+
+import java.io.IOException;
 
 public class UploadDemo {
     //设置好账号的ACCESS_KEY和SECRET_KEY

@@ -3,7 +3,6 @@ package java8;
 import java8.test_method.Person;
 import org.junit.Test;
 
-import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**

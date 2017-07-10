@@ -1,10 +1,7 @@
 package observer.jdkObserver;
 
 
-import observer.Observer;
 import org.junit.Test;
-
-import java.util.Observable;
 
 /**
  * Created by Administrator on 2016/10/5.

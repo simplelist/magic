@@ -1,7 +1,7 @@
 package springmvc.dao;
 
-import springmvc.dto.Account;
 import org.apache.ibatis.annotations.Select;
+import springmvc.dto.Account;
 
 import java.util.List;
 

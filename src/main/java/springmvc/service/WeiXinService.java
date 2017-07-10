@@ -1,7 +1,5 @@
 package springmvc.service;
 
-import org.springframework.stereotype.Service;
-
 /**
  * Created by simplelist on 2016/11/5.
  */

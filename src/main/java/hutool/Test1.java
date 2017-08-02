@@ -46,7 +46,7 @@ public class Test1 {
             }
             System.err.println("下一个............");
         }
-        writeStringToFile2("a.txt", sb, true);
+        writeStringToFile2("java8inAction/a.txt", sb, true);
     }
 
     public static void writeStringToFile2(String filePath, StringBuffer content, boolean over) {

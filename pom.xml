@@ -68,7 +68,7 @@
         <dependency>
             <groupId>com.xiaoleilu</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>3.0.5</version>
+            <version>3.2.2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.shekhargulati/strman -->
         <dependency>

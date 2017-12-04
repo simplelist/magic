@@ -1,8 +1,11 @@
 package com.kun.domain;
 
+import annotation.MyValue;
+
 /**
  * Created by kun on 2017/4/21.
  */
+@MyValue("student")
 public class Student {
     private int id;
     private String name;

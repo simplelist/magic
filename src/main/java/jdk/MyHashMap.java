@@ -7,10 +7,6 @@ import java.util.List;
  * 未涉及到扩容操作的 hashMap
  */
 public class MyHashMap {
-    private static int default_length = 999;
-    private int size = 0;
-    private Object[] arr = new Object[default_length];
-
     public static void main(String args[]) {
 
         MyHashMap myHashMap = new MyHashMap();
@@ -23,6 +19,18 @@ public class MyHashMap {
         System.out.println(myHashMap.get(null));
     }
 
+
+    private static int default_length = 999;
+    private int size = 0;
+
+    private Object[] arr = new Object[default_length];
+
+    /**
+     * 放入键值对
+     *
+     * @param key
+     * @param value
+     */
     public void put(Object key, Object value) {
         int index = hash(key);
         if (arr[index] == null) {
@@ -43,6 +51,7 @@ public class MyHashMap {
                 }
                 return;
             } else {
+                //链表头部插入元素
                 ((LinkedList) arr[index]).add(0, new MyEntry(key, value));
             }
         }
@@ -50,6 +59,12 @@ public class MyHashMap {
     }
 
 
+    /**
+     * hashMap 中指定位置是否包含指定key
+     * @param key
+     * @param index
+     * @return
+     */
     private boolean containsKey(Object key, int index) {
         Object o = arr[index];
         if (o == null) {
@@ -68,6 +83,14 @@ public class MyHashMap {
         return false;
     }
 
+    /**
+     * 根据 key 获取 value
+     * 如果 key==null,特殊处理,放在了第一个位置
+     * 获得 key 的 hash 值,就确定了在 数组中的位置.
+     * 遍历该链表
+     * @param key
+     * @return
+     */
     public Object get(Object key) {
         if (key == null) {
             return ((MyEntry) ((LinkedList) arr[0]).getFirst()).getValue();

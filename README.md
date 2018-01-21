@@ -1,26 +1,30 @@
 # magic
 一些demo,知识点总结,自己写的一些小程序
-自己实现了
+
+
+自己简单实现了,仅用于学习其原理
 
 ThreadLocal
 
 HashMap
 
-###后端
+
+
+### 后端
 1. MyBatis
 2. springMVC
 3. joda-time
 4. hutool
 5. MySQL
 
-###前端
+### 前端
 1. jQuery
 2. Bootstrap
 3. sweetAlert
 4. Less
 
 
-###其他
+### 其他
 设计模式
 
 1. 单例模式
@@ -45,10 +49,10 @@ HashMap
 20. 享元模式
 21. 桥梁模式
 
-###中间件
+### 中间件
 1. Zookeeper
 2. Redis
 3. Kafka
 
-###Mybatis 插件
+### Mybatis 插件
 MyBatis-jpa: 类似于 JPA 提供的只写方法名字,没有具体的实现,进行查询操作

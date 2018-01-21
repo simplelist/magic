@@ -1,5 +1,10 @@
 # magic
 一些demo,知识点总结,自己写的一些小程序
+自己实现了
+
+ThreadLocal
+
+HashMap
 
 ###后端
 1. MyBatis
@@ -39,3 +44,11 @@
 19. 状态模式
 20. 享元模式
 21. 桥梁模式
+
+###中间件
+1. Zookeeper
+2. Redis
+3. Kafka
+
+###Mybatis 插件
+MyBatis-jpa: 类似于 JPA 提供的只写方法名字,没有具体的实现,进行查询操作

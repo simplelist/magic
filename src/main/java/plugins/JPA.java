@@ -24,7 +24,7 @@ public class JPA implements Interceptor {
         MappedStatement statement;
         PreparedStatementHandler preparedStatementHandler;
         BoundSql boundSql;
-        RoutingStatementHandler target = (RoutingStatementHandler) invocation.getTarget();
+        Object target = invocation.getTarget();
 
         //多个插件
         if (Proxy.isProxyClass(target.getClass())) {

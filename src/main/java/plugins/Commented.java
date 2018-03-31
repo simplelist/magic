@@ -14,7 +14,7 @@ import java.util.Properties;
 
 /**
  * 给 SQL 语句加上注释:该 SQL 语句的 ID,com.xx.xxMapper.selectByXX.
- * 该插件需在其他插件加载之后进行加载,插件的执行顺序:先配置的后执行,因为先配置的被包装的更深
+ * 该插件需在其他插件加载之后进行加载,插件的执行顺序:先配置的先执行
  */
 @Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class, Integer.class})})
 public class Commented implements Interceptor {

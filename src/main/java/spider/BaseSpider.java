@@ -19,7 +19,7 @@ public abstract class BaseSpider {
     public Document doc=null;
     public  static String baseUrl;
 
-    public void writeStringToFile2(String filePath, StringBuffer content, boolean append) {
+    public void writeStringToFile2(String filePath, String content, boolean append) {
         try {
             FileWriter fw = new FileWriter(filePath, append);
             BufferedWriter bw = new BufferedWriter(fw);

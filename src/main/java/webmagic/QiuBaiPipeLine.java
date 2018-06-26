@@ -1,6 +1,6 @@
 package webmagic;
 
-import com.xiaoleilu.hutool.util.CollectionUtil;
+import cn.hutool.core.collection.CollectionUtil;
 import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
 import us.codecraft.webmagic.pipeline.Pipeline;

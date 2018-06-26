@@ -1,7 +1,8 @@
 package util;
+
+import cn.hutool.core.util.RandomUtil;
+import cn.hutool.core.util.StrUtil;
 import com.kun.domain.Employee;
-import com.xiaoleilu.hutool.util.RandomUtil;
-import com.xiaoleilu.hutool.util.StrUtil;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

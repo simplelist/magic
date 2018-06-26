@@ -1,6 +1,6 @@
 package hutool;
 
-import com.xiaoleilu.hutool.http.HttpUtil;
+import cn.hutool.http.HttpUtil;
 import org.junit.Test;
 
 /**

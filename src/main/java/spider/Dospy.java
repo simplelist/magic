@@ -24,7 +24,7 @@ public class Dospy extends BaseSpider {
             e.printStackTrace();
         }
         System.out.println(result.toString());
-        writeStringToFile2("a.html", result, false);
+        writeStringToFile2("a.html", result.toString(), false);
 
     }
 

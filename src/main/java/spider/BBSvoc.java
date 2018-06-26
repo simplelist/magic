@@ -23,7 +23,7 @@ public class BBSvoc extends BaseSpider {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        writeStringToFile2("voc.html", result, false);
+        writeStringToFile2("voc.html", result.toString(), false);
 
     }
 
@@ -45,4 +45,5 @@ public class BBSvoc extends BaseSpider {
         }
         return result.toString();
     }
+
 }

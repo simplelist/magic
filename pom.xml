@@ -280,6 +280,12 @@
             <artifactId>springfox-swagger2</artifactId>
             <version>2.6.1</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.flowable/flowable-spring-boot-starter -->
+        <dependency>
+            <groupId>org.flowable</groupId>
+            <artifactId>flowable-spring-boot-starter</artifactId>
+            <version>6.4.1</version>
+        </dependency>
 
     </dependencies>
 

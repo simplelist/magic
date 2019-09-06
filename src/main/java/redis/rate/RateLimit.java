@@ -1,8 +1,7 @@
 package redis.rate;
 
-import org.junit.Before;
 import org.junit.Test;
-import redis.clients.jedis.Jedis;
+import redis.BaseRedisTest;
 import redis.clients.jedis.Pipeline;
 import redis.clients.jedis.Response;
 
@@ -13,13 +12,7 @@ import java.io.IOException;
  * @data 2019-09-02 20:32
  * TODO
  */
-public class RateLimit {
-    Jedis jedis;
-
-    @Before
-    public void before() {
-        jedis = new Jedis();
-    }
+public class RateLimit extends BaseRedisTest {
 
     public boolean isActionAllowed(String key, int period, int maxCount) throws IOException {
         long timeMillis = System.currentTimeMillis();
